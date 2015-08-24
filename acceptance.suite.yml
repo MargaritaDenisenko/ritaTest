@@ -1,0 +1,11 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver
+        - \Helper\Acceptance
+    config:
+        WebDriver:
+            host: localhost
+            url: 'http://docker.ru/'
+            browser: firefox
+            window_size: 1024x768
